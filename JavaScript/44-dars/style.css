@@ -1,10 +1,10 @@
-body{
+/* body{
   display: flex;
   align-items: center;
   height: 90vh;
   text-align: center;
   justify-content: center;
-  background-color:  #000;
+  background-color:  black;
 }
 #app{
   text-align:center;
@@ -17,7 +17,7 @@ body{
     #fff800 100%
   );
   background-clip:border-box;
-   text-fill-color: transparent;
+  text-fill-color: transparent;
   background-clip:text;
   -webkit-background-clip:text;
   -webkit-text-fill-color: transparent;
@@ -29,4 +29,28 @@ body{
   to {
     background-position: 200% center;
   }
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  /* padding: 10px; */
+  border: 2px solid aqua;
+}
+.car-img{
+  width: 200px;
+  float: left;
+}
+.desc{
+  background-color: crimson;
+  padding: 10px;
+}
+.features{
+  background-color: springgreen;
+  padding: 10px;
 }
