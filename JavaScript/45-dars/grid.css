@@ -6,7 +6,7 @@
     font-size: 40px;
     background-color: rgb(0,0,0);
     display: grid;
-    /* grid-template-columns: 200px 200px 200px 150px; */
+    /* grid-template-columns: 200px 200px 200px 150px;  / */
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 250px 250px;
     gap: 20px;
