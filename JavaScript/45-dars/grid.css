@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: 50px;
+    font-size: 40px;
+    background-color: rgb(0,0,0);
+    display: grid;
+    grid-template-columns: 200px 200px 200px 150px;
+    grid-template-rows: 250px 150px;
+    gap: 20px;
+}
+.el-1 {
+    background-color: brown;
+  }
+  .el-2 {
+    background-color: forestgreen;
+  }
+  .el-3 {
+    background-color: hotpink;
+    height: 150px;
+  }
+  .el-4 {
+    background-color: olive;
+  }
+  .el-5 {
+    background-color: teal;
+  }
+  .el-6 {
+    background-color: yellow;
+  }
+  .el-7 {
+    background-color: indigo;
+  }
+  .el-8 {
+    background-color: coral;
+  }
