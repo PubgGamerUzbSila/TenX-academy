@@ -19,6 +19,8 @@
   }
   .el-2 {
     background-color: forestgreen;
+    grid-column: -3 / -2;
+    grid-row: 2 / 3;
   }
   .el-3 {
     background-color: hotpink;
@@ -42,4 +44,6 @@
   }
   .el-8 {
     background-color: coral;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
   }
