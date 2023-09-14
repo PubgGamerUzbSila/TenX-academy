@@ -1,94 +1,132 @@
-*{
+* {
     box-sizing: border-box;
 }
-.container{
+
+.container {
     margin: 50px;
     font-size: 40px;
-    background-color: rgb(0,0,0);
+    background-color: rgb(0, 0, 0);
     display: grid;
     /* grid-template-columns: 200px 200px 200px 150px;  / */
     /* grid-template-columns: repeat(4,1fr); */
-    /*grid-template-columns: auto auto auto auto;*/ /* Contentga qarab o'zgartiradi*/
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2,1fr); /* bunda yaxshi ma'noda => repeat , takrorlanish deb tarjima qilinadi */
+    /*grid-template-columns: auto auto auto auto;*/
+    /* Contentga qarab o'zgartiradi*/
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* bunda yaxshi ma'noda => repeat , takrorlanish deb tarjima qilinadi */
     height: 400px;
     gap: 20px;
 }
+
 .el-1 {
     background-color: brown;
-  }
-  .el-2 {
+}
+
+.el-2 {
     background-color: forestgreen;
     /* grid-column: -3 / -2;
     grid-row: 2 / 3; */
-  }
-  .el-3 {
+}
+
+.el-3 {
     background-color: hotpink;
     height: 150px;
     /* grid-column: -4 / -3;
     grid-row: 3 / 2; */
-  }
-  .el-4 {
+}
+
+.el-4 {
     background-color: olive;
-  }
-  .el-5 {
+}
+
+.el-5 {
     background-color: teal;
-  }
-  .el-6 {
+}
+
+.el-6 {
     background-color: yellow;
     /* grid-column: 3 / 4;
     grid-row: 1 / 2; */
-  }
-  .el-7 {
+}
+
+.el-7 {
     background-color: indigo;
-  }
-  .el-8 {
+}
+
+.el-8 {
     background-color: coral;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-  }
-  .grid-wrapper{
-      --auto-grid-min-size: 16rem;
-      display: grid;
-      grid-gap: 2rem;
-      grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-   font-family: 'Montserrat', sans-serif;
+}
 
-    }
-    .grid-wrapper li{
-      background-color: #ef4444;
-      color: #ffffff;
-      font-size: 24px;
-      list-style-type: none;
-      padding: 5rem 1rem;
-      text-align: center;
-      text-transform: capitalize;
-      font-weight: 600;
-    }
-    .main-container{
-      margin: 0 auto;
-      max-width: 1170px;
-      padding:2rem 1rem;
-    }
+.grid-wrapper {
+    --auto-grid-min-size: 16rem;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 
-    .grid-wrapper3 li{
-        background-color: #ef4444;
-        color: #ffffff;
-    }
-    .grid-wrapper3{
-        display: grid;
-        gap: 2rem;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(4.1fr);
-        padding: 20px;
+}
 
-    }
-    .li1,.li2{
-        grid-row: 1/16;
-    }
-    .li3{
-        grid-column: 1/3;
-    }
+.grid-wrapper li {
+    background-color: #ef4444;
+    color: #ffffff;
+    font-size: 24px;
+    list-style-type: none;
+    padding: 5rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.main-container {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 2rem 1rem;
+}
+
+.grid-wrapper3 li {
+    background-color: #ef4444;
+    color: #ffffff;
+}
+
+.grid-wrapper3 {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4.1fr);
+    padding: 20px;
+
+}
+
+.li1{
+    grid-column: 1/3;
+    grid-row: 1/4;
+}
+.li2{
+    grid-column: 3/5;
+    grid-row: 1/4;
+}
+.li3{
+    grid-column: 1/3;
+    grid-row: 4/13;
+}
+.li4{
+    grid-column: 3/5;
+    grid-row: 4/13;
+}
+.li5{
+    grid-row: 13/17;
+}
+.li6{
+    grid-row: 13/17;
+}
+.li7{
+    grid-row: 13/17;
+}
+.li8{
+    grid-row: 13/17;
+}
