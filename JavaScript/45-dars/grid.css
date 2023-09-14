@@ -9,7 +9,7 @@
     /* grid-template-columns: 200px 200px 200px 150px;  / */
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 250px;
-    gap: 20px;
+    /* gap: 20px; */
 }
 .el-1 {
     background-color: brown;
