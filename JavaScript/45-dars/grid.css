@@ -77,16 +77,18 @@
     .grid-wrapper3 li{
         background-color: #ef4444;
         color: #ffffff;
-        font-size: 24px;
-        list-style-type: none;
-        padding: 5rem 1rem;
-        text-align: center;
-        text-transform: capitalize;
-        font-weight: 600;
     }
     .grid-wrapper3{
         display: grid;
         gap: 2rem;
-        grid-template-columns: repeat(4,1fr);
-        
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4.1fr);
+        padding: 20px;
+
+    }
+    .li1,.li2{
+        grid-row: 1/16;
+    }
+    .li3{
+        grid-column: 1/3;
     }
