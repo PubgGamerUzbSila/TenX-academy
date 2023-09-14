@@ -23,6 +23,8 @@
   .el-3 {
     background-color: hotpink;
     height: 150px;
+    grid-column: -4 / -3;
+    grid-row: 3 / 2;
   }
   .el-4 {
     background-color: olive;
@@ -32,6 +34,8 @@
   }
   .el-6 {
     background-color: yellow;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
   }
   .el-7 {
     background-color: indigo;
