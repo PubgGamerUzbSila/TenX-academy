@@ -20,7 +20,9 @@ const Person = function(firstName, lastName, age){
 const res = new Person('Komil','Rasulov', 56);
 const res1 = new Person('Kasa','Rasufsdfslov', 46);
 const res2 = new Person('asdsd','hjjgjg', 12);
-
+Person.prototype.calcYear = fucntion() {
+    console.log(2023 - this.age)
+}
 console.log(res)
 console.log(res1)
 console.log(res2)
