@@ -16,7 +16,7 @@
 
 
 const Person = function(firstName, lastName, age){
-
+    console.log(this)
 }
 // 1.Bo'sh {} yaratiladi
 // 2.this yangi ochilgan bo'sh {} ga o'zlashadi va Function ishlaydi.
