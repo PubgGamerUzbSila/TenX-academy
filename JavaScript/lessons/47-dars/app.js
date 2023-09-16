@@ -7,14 +7,6 @@
 //     age: 50,
 // }
 
-
-
-
-
-
-
-
-
 const Person = function(firstName, lastName, age){
     // console.log(this)
     this.firstName = firstName;
@@ -22,7 +14,8 @@ const Person = function(firstName, lastName, age){
     this.age = age;
 }
 
-new Person();
+const res = new Person('Komil','Rasulov', 56);
+console.log(res)
 
 // 1.Bo'sh {} yaratiladi
 // 2.this yangi ochilgan bo'sh {} ga o'zlashadi va Function ishlaydi.
