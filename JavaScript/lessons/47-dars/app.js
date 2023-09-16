@@ -13,7 +13,7 @@ const Person = function(firstName, lastName, age){
     this.lastName = lastName;
     this.age = age;
     this.calcYear = function(){
-        console.log(2023 -- age)
+        console.log(2023 - age);
     }
 }
 
