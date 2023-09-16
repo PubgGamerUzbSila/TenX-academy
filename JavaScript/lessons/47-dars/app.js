@@ -25,6 +25,10 @@ console.log(res)
 console.log(res1)
 console.log(res2)
 
+res.calcYear();
+res1.calcYear();
+res2.calcYear();
+
 
 // 1.Bo'sh {} yaratiladi
 // 2.this yangi ochilgan bo'sh {} ga o'zlashadi va Function ishlaydi.
