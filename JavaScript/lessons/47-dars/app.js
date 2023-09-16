@@ -7,7 +7,6 @@ const person = {
     age: 50,
 }
 
-// 
 const person2 = {
     firstName: 'ss',
     lastName: 'dd',
