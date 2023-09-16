@@ -7,8 +7,20 @@
 //     age: 50,
 // }
 
+
+
+
+
+
+
+
+
 const Person = function(firstName, lastName, age){
 
 }
+// 1.Bo'sh {} yaratiladi
+
+
+
 
 // 47-dars end
