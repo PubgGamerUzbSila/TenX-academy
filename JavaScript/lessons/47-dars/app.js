@@ -21,7 +21,7 @@ const Person = function(firstName, lastName, age){
 // 1.Bo'sh {} yaratiladi
 // 2.this yangi ochilgan bo'sh {} ga o'zlashadi va Function ishlaydi.
 // 3. Objectimiz protorype bog'lanadi.
-
+// 4. O'sha Object return bo'ladi.
 
 
 
