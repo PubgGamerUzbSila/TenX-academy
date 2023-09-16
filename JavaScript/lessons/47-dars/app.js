@@ -12,6 +12,9 @@ const Person = function(firstName, lastName, age){
     this.firstName = firstName;
     this.lastName = lastName;
     this.age = age;
+    this.calcYear = function(){
+        console.log(2023 -- age)
+    }
 }
 
 const res = new Person('Komil','Rasulov', 56);
