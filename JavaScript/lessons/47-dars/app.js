@@ -7,5 +7,8 @@
 //     age: 50,
 // }
 
+const Person = function(firstName, lastName, age){
+
+}
 
 // 47-dars end
