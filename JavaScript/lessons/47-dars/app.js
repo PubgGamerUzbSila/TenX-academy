@@ -18,7 +18,13 @@ const Person = function(firstName, lastName, age){
 }
 
 const res = new Person('Komil','Rasulov', 56);
+const res1 = new Person('Kasa','Rasufsdfslov', 46);
+const res2 = new Person('asdsd','hjjgjg', 12);
+
 console.log(res)
+console.log(res1)
+console.log(res2)
+
 
 // 1.Bo'sh {} yaratiladi
 // 2.this yangi ochilgan bo'sh {} ga o'zlashadi va Function ishlaydi.
