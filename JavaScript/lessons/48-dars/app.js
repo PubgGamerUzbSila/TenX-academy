@@ -47,6 +47,7 @@ class Car {
         this.color = color;
     }
 
+    
     speedUp() {
         this.speed += 10;
         console.log(`${this.model} mashinasi ${this.speed} km/h da yuradi`);
