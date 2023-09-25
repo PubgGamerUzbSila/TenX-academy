@@ -1,0 +1,60 @@
+/* style.css <o>=<o> 52 lesson */
+/*             +-+   */
+html {
+    font-size: 62.5%;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 1.6rem;
+  }
+  .container {
+    display: flex;
+    max-width: 150rem;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  
+  .box {
+    border: 1px solid red;
+    flex: 1;
+    padding: 0 0.5rem;
+  }
+  
+  .user {
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    background-color: lightsalmon;
+  }
+  
+  .album {
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    background-color: lightgreen;
+  }
+  button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    transition: 1s all;
+    margin: 10px;
+  }
+  button:hover{
+    color: white;
+    background-color: black;
+  }
+  .imgg{
+    cursor: pointer;
+    transition: 1s;
+  }
+  .imgg:hover{
+    opacity: 0.5;
+    scale: 1.1;
+  }
