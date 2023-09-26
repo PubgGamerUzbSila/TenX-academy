@@ -41,6 +41,7 @@ const renderAlbums = (albums) => {
     `;
   });
 
+
   albumsContainer.insertAdjacentHTML("afterbegin", albumsHTML);
 };
 
